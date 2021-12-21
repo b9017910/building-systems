@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 
 //postemessages is a collection in the database
-
 const postSchema = mongoose.Schema({
     title: String,
     description: String,
